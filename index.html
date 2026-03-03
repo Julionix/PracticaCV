@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Menú</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        .menu-container {
+            text-align: center;
+            padding: 50px;
+            background-color: #f4f4f4; 
+        }
+        .grid-menu {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .cv-card {
+            background: #fff;
+            padding: 20px;
+            border: 2px solid #2c3e50;
+            text-decoration: none;
+            color: #333; 
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+        .cv-card:hover {
+            transform: scale(1.05);
+            background-color: #e67e22;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <h1>Directorio de Currículums</h1>
+        <p>Selecciona un perfil para ver los detalles académicos y laborales </p>
+        
+        <div class="grid-menu">
+            <a href="Curriculum.html" class="cv-card">1. Ivan Arturo Solar López</a>
+            <a href="cvJD.html" class="cv-card">2. Julio Daniel Solano Rivas</a>
+            <a href="CV GABRIEL.html" class="cv-card">3. Martínez López Ángel Gabriel </a>
+            <a href="CVRicardo.html" class="cv-card">4. Sosa Barvis Ricardo </a>
+            <a href="cvYojanan.html" class="cv-card">5. Ortiz Hernández Yojanan Leonardo </a>
+        </div>
+    </div>
+</body>
+</html>
